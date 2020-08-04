@@ -3,6 +3,7 @@ const sidebar = require('./sidebar.js')
 
 module.exports = {
     title: 'Memory space',
+    base: './',
     description: '努力向前',
     markdown: {
         lineNumbers: true
