@@ -3,7 +3,7 @@ const sidebar = require('./sidebar.js')
 
 module.exports = {
     title: 'Memory space',
-    base: './',
+    base: '/',
     description: '努力向前',
     markdown: {
         lineNumbers: true
@@ -15,7 +15,7 @@ module.exports = {
     themeConfig: {
         sidebarDepth: 2,
         smoothScroll: true,
-        repo: 'L-SUI/note',
+        repo: '/',
         nav,
         sidebar,
         docsDir: 'docs',
