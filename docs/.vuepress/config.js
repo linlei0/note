@@ -2,7 +2,7 @@ const nav = require('./nav.js')
 const sidebar = require('./sidebar.js')
 
 module.exports = {
-    title: 'Memory space',
+    title: 'linlei space',
     base: '/',
     description: '努力向前',
     markdown: {

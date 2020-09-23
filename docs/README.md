@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /hero.jpeg
-heroText: Memory space
+heroText: linlei space
 actionText: 快速阅读 →
 actionLink: /note/
 features:

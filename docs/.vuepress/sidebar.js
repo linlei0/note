@@ -123,10 +123,11 @@ const note = [
             'jsNote/base/手写一个JSON.parse和JSOn.stringify',
             'jsNote/base/手写一个map和reduce',
             'jsNote/base/手写一个new操作符',
+            'jsNote/base/eventloop',
         ]
     },
     {
-        title: 'QA相关1',
+        title: 'QA相关',
         collapsable: true,
         children: [
             'QA/JavaScript&QA',
@@ -139,6 +140,20 @@ const note = [
             "css/现代化CSS方法论"
         ]
 
+    },
+    {
+        title: 'webpack',
+        collapsable: true,
+        children: [
+            "webpack/基本使用"
+        ]
+    },
+    {
+        title: 'vue',
+        collapsable: true,
+        children: [
+            "vue/源码"
+        ]
     }
     
 ]

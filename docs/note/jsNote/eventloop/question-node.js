@@ -1,6 +1,6 @@
 // 比较 setImmediate 和 setTimeout 的执行顺序
-// setTimeout(_ => console.log('setTimeout'))
-// setImmediate(_ => console.log('setImmediate'))
+setTimeout(_ => console.log('setTimeout'))
+setImmediate(_ => console.log('setImmediate'))
 
 // 如果两者都在一个 poll 阶段注册，那么执行顺序就能确定。
 // const fs = require('fs')
