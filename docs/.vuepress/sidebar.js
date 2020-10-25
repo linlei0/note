@@ -152,7 +152,8 @@ const note = [
         title: 'vue',
         collapsable: true,
         children: [
-            "vue/源码"
+            "vue/源码",
+            "vue/nuxt"
         ]
     }
     
