@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "vuepress": "^1.5.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
