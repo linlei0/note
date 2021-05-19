@@ -5,7 +5,7 @@
     "webpack-cli": "^3.3.12"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   }
 }
