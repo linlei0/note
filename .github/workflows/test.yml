@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: 14 # nodejs版本
       - name: print node version # 打印node版本
-        run: ｜
+        run: |
           node -v
           npm -v
       - name: Cache dependencies # 缓存node_modules
@@ -28,10 +28,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
-      # 如果缓存没有命中，安装依赖
-      - name: Install dependencies
-        if: steps.yarn-cache.outputs.cache-hit != 'true'
-        run: yarn --frozen-lockfile
       
       # 运行构建脚本
       - name: Build VuePress site
