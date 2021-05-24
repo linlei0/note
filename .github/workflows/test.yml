@@ -3,8 +3,8 @@ name: test
 on: # 触发条件
  # 每当 push 到 master 分支时触发部署
   push:
-    branches: [master]
-
+    branches: 
+      - master
 jobs:
   test1: 
     runs-on: ubuntu-latest # 指定运行所需要的虚拟机环境（必填）
