@@ -36,10 +36,8 @@ jobs:
        
         run: yarn build
         
-      # 查看 workflow 的文档来获取更多信息
-      # @see https://github.com/crazy-max/ghaction-github-pages
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v2.5.0
+        uses: linlei0/note
         # 环境变量
         env:
           GITHUB_TOKEN: ${{ secrets.NOTE_SECRETS }}
