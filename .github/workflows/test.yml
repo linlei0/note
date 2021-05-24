@@ -4,9 +4,6 @@ on: # 触发条件
  # 每当 push 到 master 分支时触发部署
   push:
     branches: [master]
-    paths:
-      - '/**'
-
 
 jobs:
   test1: 
