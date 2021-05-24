@@ -42,6 +42,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.NOTE_SECRETS }}
           PUBLISH_BRANCH: gh-pages
-        with:
-          # 部署目录为 VuePress 的默认输出目录
-          build_dir: docs/.vuepress/dist
+          PUBLISH_DIR: docs/.vuepress/dist
