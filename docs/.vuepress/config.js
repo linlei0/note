@@ -3,7 +3,7 @@ const sidebar = require('./sidebar.js')
 
 module.exports = {
     title: 'linlei space',
-    base: '/',
+    base: '/note',
     description: '努力向前',
     markdown: {
         lineNumbers: true
