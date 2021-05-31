@@ -161,7 +161,8 @@ const note = [
         collapsable: true,
         children: [
             "webpack/基本使用",
-            "webpack/工作原理"
+            "webpack/工作原理",
+            "webpack/vue3+webpack5配置"
         ]
     },
     {
