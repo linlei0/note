@@ -157,6 +157,14 @@ const note = [
         ]
     },
     {
+        title: '性能',
+        collapsable: true,
+        children: [
+            '性能/前端性能优化RAIL',
+            '性能/重绘和重排'
+        ]
+    },
+    {
         title: 'webpack',
         collapsable: true,
         children: [
@@ -170,7 +178,8 @@ const note = [
         collapsable: true,
         children: [
             "vue/源码",
-            "vue/nuxt"
+            "vue/nuxt",
+            "vue/vue2基础"
         ]
     }
     
