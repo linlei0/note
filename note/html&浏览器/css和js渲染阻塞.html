@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>css和js渲染阻塞 | linlei space</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="努力向前">
+    
+    <link rel="preload" href="/note/assets/css/0.styles.19e75038.css" as="style"><link rel="preload" href="/note/assets/js/app.9a4cd571.js" as="script"><link rel="preload" href="/note/assets/js/2.ac5d8c59.js" as="script"><link rel="preload" href="/note/assets/js/14.f7aaa95b.js" as="script"><link rel="prefetch" href="/note/assets/js/10.83b8b7e4.js"><link rel="prefetch" href="/note/assets/js/11.08f7380f.js"><link rel="prefetch" href="/note/assets/js/12.730dfb41.js"><link rel="prefetch" href="/note/assets/js/13.5189b6aa.js"><link rel="prefetch" href="/note/assets/js/15.676c40df.js"><link rel="prefetch" href="/note/assets/js/16.41da6836.js"><link rel="prefetch" href="/note/assets/js/17.c901998e.js"><link rel="prefetch" href="/note/assets/js/18.eeb01807.js"><link rel="prefetch" href="/note/assets/js/19.a8625064.js"><link rel="prefetch" href="/note/assets/js/20.bb3875f9.js"><link rel="prefetch" href="/note/assets/js/21.7d4422dd.js"><link rel="prefetch" href="/note/assets/js/22.38930b6e.js"><link rel="prefetch" href="/note/assets/js/23.f6eb5439.js"><link rel="prefetch" href="/note/assets/js/24.472754e8.js"><link rel="prefetch" href="/note/assets/js/25.8b2069ad.js"><link rel="prefetch" href="/note/assets/js/26.06519ec3.js"><link rel="prefetch" href="/note/assets/js/3.771dd6dd.js"><link rel="prefetch" href="/note/assets/js/4.df2ab879.js"><link rel="prefetch" href="/note/assets/js/5.0baea6f7.js"><link rel="prefetch" href="/note/assets/js/6.3b970478.js"><link rel="prefetch" href="/note/assets/js/7.5b3fbab4.js"><link rel="prefetch" href="/note/assets/js/8.dccdad94.js"><link rel="prefetch" href="/note/assets/js/9.3e17a061.js">
+    <link rel="stylesheet" href="/note/assets/css/0.styles.19e75038.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/note/" class="home-link router-link-active"><!----> <span class="site-name">linlei space</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/note/note/" class="nav-link router-link-active">
+  博客
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="算法" class="dropdown-title"><span class="title">算法</span> <span class="arrow down"></span></button> <button type="button" aria-label="算法" class="mobile-dropdown-title"><span class="title">算法</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/note/" class="nav-link">
+  每日
+</a></li><li class="dropdown-item"><!----> <a href="/note/" class="nav-link">
+  LeetCode
+</a></li></ul></div></div> <a href="https://github.com//" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/note/note/" class="nav-link router-link-active">
+  博客
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="算法" class="dropdown-title"><span class="title">算法</span> <span class="arrow down"></span></button> <button type="button" aria-label="算法" class="mobile-dropdown-title"><span class="title">算法</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/note/" class="nav-link">
+  每日
+</a></li><li class="dropdown-item"><!----> <a href="/note/" class="nav-link">
+  LeetCode
+</a></li></ul></div></div> <a href="https://github.com//" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Nginx</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>JavaScript</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>html&amp;浏览器</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/note/note/html&amp;浏览器/缓存策略.html" class="sidebar-link">浏览器缓存策略</a></li><li><a href="/note/note/html&amp;浏览器/css和js渲染阻塞.html" class="active sidebar-link">css和js渲染阻塞</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/note/note/html&amp;浏览器/css和js渲染阻塞.html#浏览器渲染引擎" class="sidebar-link">浏览器渲染引擎</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/note/note/html&amp;浏览器/css和js渲染阻塞.html#主要模块" class="sidebar-link">主要模块</a></li></ul></li><li class="sidebar-sub-header"><a href="/note/note/html&amp;浏览器/css和js渲染阻塞.html#阻塞渲染" class="sidebar-link">阻塞渲染</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/note/note/html&amp;浏览器/css和js渲染阻塞.html#关于css阻塞" class="sidebar-link">关于css阻塞</a></li><li class="sidebar-sub-header"><a href="/note/note/html&amp;浏览器/css和js渲染阻塞.html#关于js阻塞" class="sidebar-link">关于js阻塞</a></li><li class="sidebar-sub-header"><a href="/note/note/html&amp;浏览器/css和js渲染阻塞.html#备注" class="sidebar-link">备注</a></li></ul></li></ul></li><li><a href="/note/note/html&amp;浏览器/eventloop.html" class="sidebar-link">浏览器中的eventloop</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>性能</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>webpack</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>vue</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="css和js渲染阻塞"><a href="#css和js渲染阻塞" class="header-anchor">#</a> css和js渲染阻塞</h1> <h2 id="浏览器渲染引擎"><a href="#浏览器渲染引擎" class="header-anchor">#</a> 浏览器渲染引擎</h2> <h3 id="主要模块"><a href="#主要模块" class="header-anchor">#</a> 主要模块</h3> <ul><li>一个渲染引擎主要包括：HTML解析器，CSS解析器，javascript引擎，布局layout模块，绘图模块</li></ul> <h2 id="阻塞渲染"><a href="#阻塞渲染" class="header-anchor">#</a> 阻塞渲染</h2> <h3 id="关于css阻塞"><a href="#关于css阻塞" class="header-anchor">#</a> 关于css阻塞</h3> <p><strong>申明：只有link引入的外部css才会引起阻塞</strong></p> <ol><li><p>style标签中的样式：
+(1).由html解析器进行解析
+(2).不阻塞浏览器渲染（可能会产生闪屏的现象）
+(3).不阻塞dom解析</p></li> <li><p>link引入的外部css样式（推荐使用方式）
+(1).由css解析器进行解析
+(2).阻塞浏览器渲染（可以理由这种阻塞避免闪屏现象）
+(3).阻塞其后面的js语句的执行
+(4).不阻塞dom的解析（绝大多数浏览器的工作方式）</p></li> <li><p>优化核心理念：尽可能快的提高外部css加载速度
+(1).使用CDN节点进行外部资源加速
+(2).对css进行压缩（利用打包工具，webpack，gulp等）
+(3).减少http请求，将多个css文件合并
+(4).优化样式的代码</p></li></ol> <h3 id="关于js阻塞"><a href="#关于js阻塞" class="header-anchor">#</a> 关于js阻塞</h3> <ol><li>阻塞后续DOM解析：
+原因：浏览器不知道后续脚本的内容，如果先去解析下面的DOM，而随后的js删除了后面所有DOM，
+那么浏览器就做了无用功，浏览器无法预估脚本里面具体做了什么操做。</li> <li>阻塞页面渲染：
+原因：js中也可以给DOM设置样式，浏览器等该脚本执行完毕，渲染出一个最终结果，避免做无用功。</li> <li>阻塞后续js的执行：
+原因：维护依赖关系，例如：使用bootstrap不许引用jquery</li></ol> <h3 id="备注"><a href="#备注" class="header-anchor">#</a> 备注</h3> <ol><li>css的解析和js是互斥的，css解析的时候js停止工作，js解析的时候css停止工作。</li> <li>无论css阻塞还是js阻塞，都不会阻塞浏览器加载外部资源（蹄片，视频，样式，脚本等）
+原因：浏览器始终处于一种“先把请求发出去”的工作模式，只要涉及到网络请求的内容，无论是图片，样式
+脚本都会先发送请求去获取资源，至于资源到本地如何使用，由浏览器自己协调，这种做法效率很高。</li></ol></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com//edit/master/docs/note/html&amp;浏览器/css和js渲染阻塞.md" target="_blank" rel="noopener noreferrer">在 Github 上编辑此页</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <div class="last-updated"><span class="prefix">更新时间:</span> <span class="time">8/1/2021, 2:50:44 AM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/note/note/html&amp;浏览器/缓存策略.html" class="prev">
+        浏览器缓存策略
+      </a></span> <span class="next"><a href="/note/note/html&amp;浏览器/eventloop.html">
+        浏览器中的eventloop
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/note/assets/js/app.9a4cd571.js" defer></script><script src="/note/assets/js/2.ac5d8c59.js" defer></script><script src="/note/assets/js/14.f7aaa95b.js" defer></script>
+  </body>
+</html>
