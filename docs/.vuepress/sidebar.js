@@ -153,7 +153,9 @@ const note = [
         title: 'html&浏览器',
         collapsable: true,
         children: [
-            'html&浏览器/缓存策略'
+            'html&浏览器/缓存策略',
+            'html&浏览器/css和js渲染阻塞',
+            'html&浏览器/eventloop',
         ]
     },
     {

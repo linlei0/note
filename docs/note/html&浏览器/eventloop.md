@@ -186,21 +186,7 @@ new Promise(function(resolve) {
 ```
 执行结果：在代码中已标识出来
 分析：此题与实战一类是，主要是主要一下async1中resolve(async2()),这里还是会同步执行async2但是不会返回结果
-<!-- 
-## nodejs中的eventLoop
-**nodejs中的宏任务**
-- setTimeout
-- setInterval
-- setImmediate
-- IO
-**nodejs中的微任务**
-- promsie(async)
-- process.nextTick
-// 比较 setImmediate 和 setTimeout 的执行顺序
-```js
-setTimeout(_ => console.log('setTimeout'))
-setImmediate(_ => console.log('setImmediate'))
-``` -->
+
 
 
 

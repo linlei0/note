@@ -66,9 +66,9 @@
 
 注意：只有当元素在可视窗口才可能被认为渲染内容，最大元素是可变的。
 
-**如何监测最大元素**
+<!-- **如何监测最大元素**
 ```js
 
-```
+``` -->
 
 <!-- https://light-dev.ghzq.com.cn/light/h5/ymuoitjpl/index.html#/index/loading?callback=https://light-dev.ghzq.com.cn/WebReport/ReportServer?formlet=ghzq-erqi/ghzq-erqi/oahome/oahome-gr-cs.frm -->
