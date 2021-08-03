@@ -182,6 +182,7 @@ const note = [
             "vue/源码",
             "vue/nuxt",
             "vue/vue2基础",
+            "vue/vue2进阶",
             "vue/vue3+rollup实现个人组件库",
             "vue/vue3实现一个toast组件",
             "vue/vue3实现upload组件"

@@ -1,9 +1,6 @@
 # vue2 基础
 
-## computed 和 watch
 
-- computed 有缓存 data 不变则不会重新计算
-- watch 如何深度监听
 
 ## v-if 和 v-for 为啥不能一起使用
 
