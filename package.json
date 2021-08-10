@@ -9,7 +9,5 @@
     "build": "vuepress build docs"
   },
   "dependencies": {
-    "vuepress-plugin-helper-live2d": "^1.0.2",
-    "vuepress-theme-yilia-plus": "^1.0.0"
   }
 }
