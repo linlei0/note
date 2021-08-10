@@ -145,8 +145,10 @@ const note = [
         title: 'JavaScript',
         collapsable: true,
         children: [
-            'JavaScript/手写系列',
-            'JavaScript/继承'
+            'JavaScript/手写系列一',
+            'JavaScript/手写系列二',
+            'JavaScript/继承',
+            'JavaScript/this指向'
         ]
     },
     {
@@ -185,7 +187,8 @@ const note = [
             "vue/vue2进阶",
             "vue/vue3+rollup实现个人组件库",
             "vue/vue3实现一个toast组件",
-            "vue/vue3实现upload组件"
+            "vue/vue3实现upload组件",
+            "vue/vue2和vue3常见考题"
         ]
     }
 ]
