@@ -23,7 +23,7 @@
 
 5. 字体加载优化
 
-```js
+```css
 @font-face {
   font-family: 'Pacifico';
   font-style: normal;

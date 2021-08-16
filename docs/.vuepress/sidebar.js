@@ -174,6 +174,7 @@ const note = [
         children: [
             "webpack/基本使用",
             "webpack/工作原理",
+            "webpack/webpack优化",
             "webpack/vue3+webpack5配置"
         ]
     },
