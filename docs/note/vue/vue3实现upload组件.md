@@ -71,7 +71,7 @@ export default defineComponent({
 - 处理上传状态
 
 代码如下：
-```js
+```vue
 <template>
   <div class="file-upload">
     <div class="upload-area" @click="triggerUpload"></div>
