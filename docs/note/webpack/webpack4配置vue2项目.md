@@ -1,5 +1,5 @@
-pm i webpack@4.44.2 webpack-cli@3.3.11 -D
-```
+## 
+
 ## 3.配置webpack
 - 1.根目录下创建config文件夹，分别创建webpack.base.config.js,webpack.dev.config.js,webpack.prod.config.js
 
