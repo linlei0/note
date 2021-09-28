@@ -73,6 +73,20 @@ const note = [
             'nginx/nginx'
         ]
     },
+    {
+        title: 'redis',
+        collapsable: true,
+        children: [
+            'redis/安装及基本使用'
+        ]
+    },
+    {
+        title: 'node',
+        collapsable: true,
+        children: [
+            'node/pm2基本使用'
+        ]
+    },
     // {
     //     title: '项目工程化',
     //     collapsable: true,

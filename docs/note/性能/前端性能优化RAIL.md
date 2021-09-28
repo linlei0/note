@@ -72,3 +72,19 @@
 ``` -->
 
 <!-- https://light-dev.ghzq.com.cn/light/h5/ymuoitjpl/index.html#/index/loading?callback=https://light-dev.ghzq.com.cn/WebReport/ReportServer?formlet=ghzq-erqi/ghzq-erqi/oahome/oahome-gr-cs.frm -->
+
+## 什么是RAIL测量模型
+- Response响应
+指对用户的响应，比如用户点击按钮所得到的一个响应
+在50ms内完成
+- Animation
+动画
+每10ms产生一帧，1s为60帧换算得来
+- Idle空闲
+浏览器空闲时间，响应足够快则Idle越空闲
+- Load
+加载时间
+在5s内完成内容加载及用户体验
+
+
+
