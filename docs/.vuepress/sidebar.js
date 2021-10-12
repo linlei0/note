@@ -84,7 +84,8 @@ const note = [
         title: 'node',
         collapsable: true,
         children: [
-            'node/pm2基本使用'
+            'node/pm2基本使用',
+            'node/常用node库总结'
         ]
     },
     // {
@@ -204,7 +205,7 @@ const note = [
             "vue/vue3+rollup实现个人组件库",
             "vue/vue3实现一个toast组件",
             "vue/vue3实现upload组件",
-            "vue/vue2和vue3常见考题"
+            "vue/vue2和vue3区别"
         ]
     }
 ]

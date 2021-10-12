@@ -1,4 +1,4 @@
-# vue2 和 vue3 常见考题
+# vue2 和 vue3
 
 ## vue2 和 vue3 有什么区别
 
