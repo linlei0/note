@@ -163,7 +163,16 @@ const note = [
             'JavaScript/手写系列一',
             'JavaScript/手写系列二',
             'JavaScript/继承',
-            'JavaScript/this指向'
+            'JavaScript/this指向',
+            'JavaScript/promise',
+            'JavaScript/[]==![]'
+        ]
+    },
+    {
+        title: 'css',
+        collapsable: true,
+        children: [
+            'css/BFC.md'
         ]
     },
     {
@@ -199,6 +208,7 @@ const note = [
         collapsable: true,
         children: [
             "vue/源码",
+            "vue/$set原理",
             "vue/nuxt",
             "vue/vue2基础",
             "vue/vue2进阶",
@@ -206,6 +216,13 @@ const note = [
             "vue/vue3实现一个toast组件",
             "vue/vue3实现upload组件",
             "vue/vue2和vue3区别"
+        ]
+    },
+    {
+        title: 'React',
+        collapsable: true,
+        children: [
+            'React/React-fiber'
         ]
     }
 ]
