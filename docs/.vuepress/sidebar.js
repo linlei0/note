@@ -165,7 +165,7 @@ const note = [
             'JavaScript/继承',
             'JavaScript/this指向',
             'JavaScript/promise',
-            'JavaScript/[]==![]'
+            'JavaScript/运算符问题'
         ]
     },
     {
