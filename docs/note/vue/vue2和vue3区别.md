@@ -181,3 +181,15 @@ export default {
 - 前者无需 useMemo use Callback，因为 setup 只调用一次
 - 前者无需考虑调用顺序，而后者需要保证 hooks 的调用顺序一致
 - reactive + ref 比 useState 更难理解
+
+
+```shell
+// 原来的origin暂时先保留
+// origin-net 可以为任意
+git remote add origin-net 'http://xxx.xxx.xxxx:5678/haosong/insight-stage.git'
+git add .
+git commit -m 'xxx'
+git pull origin-net dev-mobile
+git push origin-net dev-mobile
+ 
+```

@@ -193,6 +193,13 @@ const note = [
         ]
     },
     {
+        title: "前端监控",
+        collapsable: true,
+        children: [
+            '前端监控/前端监控'
+        ]
+    },
+    {
         title: 'webpack',
         collapsable: true,
         children: [
